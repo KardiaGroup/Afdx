@@ -14,7 +14,7 @@ struct Index {
     try {
       const resp = await session.fetch(req).then(res => res.toJSON())
       console.log(JSON.stringify(resp))
-      this.creators = resp.data.list
+      // this.creators = resp.data.list
 
     } catch (e) {
       console.error(JSON.stringify(e))
