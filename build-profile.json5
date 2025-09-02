@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\ColdStoneBoy\\.ohos\\config\\default_AfdX_ZsSUcIR-NZVxH5_7VjWckAx0OjpqwsRClqmurlvZywc=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B19B2699BA660B29D686B76897394C1390BE1E35B205B2D5FBC532C31375696C414981776304CEF",
+          "profile": "C:\\Users\\ColdStoneBoy\\.ohos\\config\\default_AfdX_ZsSUcIR-NZVxH5_7VjWckAx0OjpqwsRClqmurlvZywc=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\ColdStoneBoy\\.ohos\\config\\default_AfdX_ZsSUcIR-NZVxH5_7VjWckAx0OjpqwsRClqmurlvZywc=.p12",
+          "storePassword": "0000001B6A79C6F54F67D4BB2EBF9E5067CFCB64DF6854A9C94811CD9F8FB60C47C312E0E3734D4CD522C7"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "5.1.1(19)",
+        "compatibleSdkVersion": "5.1.1(19)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
