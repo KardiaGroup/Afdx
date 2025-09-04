@@ -3,6 +3,10 @@
     {
       "name": "app_name",
       "value": "AfdX"
+    },
+    {
+      "name": "Network_Available",
+      "value": "网络可用~"
     }
   ]
 }
